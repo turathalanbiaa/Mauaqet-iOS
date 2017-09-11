@@ -9,19 +9,33 @@
 /* Begin PBXBuildFile section */
 		1252B3A01DFBE78D00B61D90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1252B39F1DFBE78D00B61D90 /* AppDelegate.swift */; };
 		1252B3A21DFBE78D00B61D90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1252B3A11DFBE78D00B61D90 /* ViewController.swift */; };
-		1252B3A51DFBE78D00B61D90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1252B3A31DFBE78D00B61D90 /* Main.storyboard */; };
 		1252B3A71DFBE78D00B61D90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1252B3A61DFBE78D00B61D90 /* Assets.xcassets */; };
 		1252B3AA1DFBE78D00B61D90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1252B3A81DFBE78D00B61D90 /* LaunchScreen.storyboard */; };
+		1252B3B21DFBEB3900B61D90 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1252B3B11DFBEB3900B61D90 /* MainTableViewCell.swift */; };
+		125AC1CA1DFFF5D20052E925 /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125AC1C91DFFF5D20052E925 /* SplashScreenViewController.swift */; };
+		12F2410E1DFE6A3F00800C2A /* PDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F2410D1DFE6A3F00800C2A /* PDFViewController.swift */; };
+		12F241171DFE7ACD00800C2A /* pdf in Resources */ = {isa = PBXBuildFile; fileRef = 12F241161DFE7ACD00800C2A /* pdf */; };
+		12F241191DFE831200800C2A /* MonthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F241181DFE831200800C2A /* MonthViewController.swift */; };
+		12F2411B1DFE84B700800C2A /* MonthCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F2411A1DFE84B700800C2A /* MonthCell.swift */; };
+		12F2411D1DFE8DF900800C2A /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F2411C1DFE8DF900800C2A /* AboutViewController.swift */; };
+		12F241201DFE9C3E00800C2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12F2411E1DFE9C3E00800C2A /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1252B39C1DFBE78D00B61D90 /* Mauaqet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mauaqet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1252B39C1DFBE78D00B61D90 /* مواقيت  الاهلة.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "مواقيت  الاهلة.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1252B39F1DFBE78D00B61D90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1252B3A11DFBE78D00B61D90 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1252B3A41DFBE78D00B61D90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1252B3A61DFBE78D00B61D90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1252B3A91DFBE78D00B61D90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1252B3AB1DFBE78D00B61D90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1252B3B11DFBEB3900B61D90 /* MainTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		125AC1C91DFFF5D20052E925 /* SplashScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreenViewController.swift; sourceTree = "<group>"; };
+		12F2410D1DFE6A3F00800C2A /* PDFViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFViewController.swift; sourceTree = "<group>"; };
+		12F241161DFE7ACD00800C2A /* pdf */ = {isa = PBXFileReference; lastKnownFileType = folder; path = pdf; sourceTree = "<group>"; };
+		12F241181DFE831200800C2A /* MonthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthViewController.swift; sourceTree = "<group>"; };
+		12F2411A1DFE84B700800C2A /* MonthCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthCell.swift; sourceTree = "<group>"; };
+		12F2411C1DFE8DF900800C2A /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		12F2411F1DFE9C3E00800C2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +60,7 @@
 		1252B39D1DFBE78D00B61D90 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1252B39C1DFBE78D00B61D90 /* Mauaqet.app */,
+				1252B39C1DFBE78D00B61D90 /* مواقيت  الاهلة.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,12 +68,19 @@
 		1252B39E1DFBE78D00B61D90 /* Mauaqet */ = {
 			isa = PBXGroup;
 			children = (
+				12F241161DFE7ACD00800C2A /* pdf */,
 				1252B39F1DFBE78D00B61D90 /* AppDelegate.swift */,
-				1252B3A11DFBE78D00B61D90 /* ViewController.swift */,
-				1252B3A31DFBE78D00B61D90 /* Main.storyboard */,
 				1252B3A61DFBE78D00B61D90 /* Assets.xcassets */,
 				1252B3A81DFBE78D00B61D90 /* LaunchScreen.storyboard */,
+				12F2411E1DFE9C3E00800C2A /* Main.storyboard */,
 				1252B3AB1DFBE78D00B61D90 /* Info.plist */,
+				1252B3A11DFBE78D00B61D90 /* ViewController.swift */,
+				1252B3B11DFBEB3900B61D90 /* MainTableViewCell.swift */,
+				12F2410D1DFE6A3F00800C2A /* PDFViewController.swift */,
+				12F241181DFE831200800C2A /* MonthViewController.swift */,
+				12F2411A1DFE84B700800C2A /* MonthCell.swift */,
+				12F2411C1DFE8DF900800C2A /* AboutViewController.swift */,
+				125AC1C91DFFF5D20052E925 /* SplashScreenViewController.swift */,
 			);
 			path = Mauaqet;
 			sourceTree = "<group>";
@@ -81,7 +102,7 @@
 			);
 			name = Mauaqet;
 			productName = Mauaqet;
-			productReference = 1252B39C1DFBE78D00B61D90 /* Mauaqet.app */;
+			productReference = 1252B39C1DFBE78D00B61D90 /* مواقيت  الاهلة.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -91,11 +112,14 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Turath-Alanbiaa";
 				TargetAttributes = {
 					1252B39B1DFBE78D00B61D90 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 9LR44FX9HH;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -123,8 +147,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1252B3AA1DFBE78D00B61D90 /* LaunchScreen.storyboard in Resources */,
+				12F241171DFE7ACD00800C2A /* pdf in Resources */,
 				1252B3A71DFBE78D00B61D90 /* Assets.xcassets in Resources */,
-				1252B3A51DFBE78D00B61D90 /* Main.storyboard in Resources */,
+				12F241201DFE9C3E00800C2A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,22 +160,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12F2411B1DFE84B700800C2A /* MonthCell.swift in Sources */,
 				1252B3A21DFBE78D00B61D90 /* ViewController.swift in Sources */,
+				125AC1CA1DFFF5D20052E925 /* SplashScreenViewController.swift in Sources */,
+				12F241191DFE831200800C2A /* MonthViewController.swift in Sources */,
+				12F2411D1DFE8DF900800C2A /* AboutViewController.swift in Sources */,
+				1252B3B21DFBEB3900B61D90 /* MainTableViewCell.swift in Sources */,
 				1252B3A01DFBE78D00B61D90 /* AppDelegate.swift in Sources */,
+				12F2410E1DFE6A3F00800C2A /* PDFViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1252B3A31DFBE78D00B61D90 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1252B3A41DFBE78D00B61D90 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1252B3A81DFBE78D00B61D90 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -159,9 +182,79 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		12F2411E1DFE9C3E00800C2A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12F2411F1DFE9C3E00800C2A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		12105B991E011F510027C395 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Ali Faris Abed (9LR44FX9HH)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ali Faris Abed (9LR44FX9HH)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "0525e6da-629e-471e-822b-4ecca119e814";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		12105B9A1E011F510027C395 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Ali Faris Abed (9LR44FX9HH)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Mauaqet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = turath.alanbiaa.Mauaqeat;
+				PRODUCT_MODULE_NAME = Mauaqet;
+				PRODUCT_NAME = "مواقيت  الاهلة";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Distribution;
+		};
 		1252B3AC1DFBE78D00B61D90 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -176,11 +269,14 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Ali Faris Abed (9LR44FX9HH)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ali Faris Abed (9LR44FX9HH)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -199,9 +295,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "0525e6da-629e-471e-822b-4ecca119e814";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -222,11 +319,14 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Ali Faris Abed (9LR44FX9HH)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ali Faris Abed (9LR44FX9HH)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -239,9 +339,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "0525e6da-629e-471e-822b-4ecca119e814";
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -251,10 +353,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Ali Faris Abed (9LR44FX9HH)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Mauaqet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = turath.alanbiaa.Mauaqet;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = turath.alanbiaa.Mauaqeat;
+				PRODUCT_MODULE_NAME = Mauaqet;
+				PRODUCT_NAME = "مواقيت  الاهلة";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -262,10 +372,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Ali Faris Abed (9LR44FX9HH)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Mauaqet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = turath.alanbiaa.Mauaqet;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = turath.alanbiaa.Mauaqeat;
+				PRODUCT_MODULE_NAME = Mauaqet;
+				PRODUCT_NAME = "مواقيت  الاهلة";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -277,6 +395,7 @@
 			buildConfigurations = (
 				1252B3AC1DFBE78D00B61D90 /* Debug */,
 				1252B3AD1DFBE78D00B61D90 /* Release */,
+				12105B991E011F510027C395 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -286,8 +405,10 @@
 			buildConfigurations = (
 				1252B3AF1DFBE78D00B61D90 /* Debug */,
 				1252B3B01DFBE78D00B61D90 /* Release */,
+				12105B9A1E011F510027C395 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

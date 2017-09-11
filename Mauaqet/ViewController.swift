@@ -8,18 +8,57 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController , UITableViewDelegate , UITableViewDataSource
+{
 
-    override func viewDidLoad() {
+    @IBOutlet var tableView: UITableView!
+    let options =
+        [ "المقدمة"
+        , "طريقة العمل"
+        , "الاشهر"
+        , "طريقة حساب القبلة"
+        , "الملاحضات"
+        , "معهد تراث الانبياء"
+        , "عرض الكتاب كامل"];
+    
+    
+    let values = ["intro" , "how_to" , "months" , "qibla" , "notes" , "about" , "pdf"];
+    
+
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        self.tableView.delegate = self;
+        self.tableView.dataSource = self;
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
+    {
+        return options.count;
+    }
+    
+    func numberOfSections(in tableView: UITableView) -> Int
+    {
+        return 1
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat
+    {
+        return 80;
     }
-
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
+    {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "mainCell", for: indexPath) as! MainTableViewCell;
+        
+        cell.viewController = self;
+        cell.button.layer.cornerRadius = 3;
+        cell.button.setTitle(options[indexPath.row] , for: UIControlState());
+        cell.value = values[indexPath.row];
+        
+        return cell;
+    }
 
 }
+
 
